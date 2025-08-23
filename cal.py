@@ -1,3 +1,9 @@
+import math
+
+def sqrt(a):
+    if a<0:
+        raise ValueError("sqrt for negative")
+    return math.sqrt(a) 
 def add(a, b): return a + b
 def sub(a, b): return a - b
 def mul(a, b): return a * b

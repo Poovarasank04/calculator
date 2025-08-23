@@ -21,3 +21,4 @@ if __name__ == "__main__":
     print("4 * 2 =", mul(4, 2))
     print("8 / 2 =", div(8, 2))
     print("2 ** 4 =",pow(2,4))
+    print("55 :",sqrt(55))

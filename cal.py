@@ -12,6 +12,7 @@ def div(a, b):
         raise ZeroDivisionError("Cannot divide by zero")
     return a / b
 def power(a, b): return a ** b
+def mod(a,b): return a%b
 
 
 if __name__ == "__main__":
@@ -22,3 +23,4 @@ if __name__ == "__main__":
     print("8 / 2 =", div(8, 2))
     print("2 ** 4 =",pow(2,4))
     print("55 :",sqrt(55))
+    print("3 % 5",mod(3,5))
